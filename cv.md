@@ -50,6 +50,7 @@ Designed and developed databases for Electronic Document Management System (Lotu
 	squareInput.addEventListener('input', function(){
 	squareRange.value = squareInput.value;
 	});
+	
 [More code examples](https://github.com/Stronhina/Frontend)
 ### Education
 ----------
