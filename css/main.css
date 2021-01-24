@@ -2,7 +2,94 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
 .container {
-  width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
+}
+
+/* --------- Header -----------*/
+.header {
+  width: 100%;
+  background-color: #4d4d4f;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  color: #ffffff;
+}
+
+.header-container__name {
+  display: flex;
+  align-items: center;
+}
+
+.header-photo {
+  margin-right: 20px;
+}
+
+.header-img {
+  border-radius: 50%;
+}
+
+.header-title {
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.header-contacts {
+  text-align: right;
+}
+
+.img-icons {
+  width: 20px;
+  vertical-align: middle;
+}
+
+/* ----------- Content ----------------*/
+.content {
+  display: flex;
+}
+
+.left-column {
+  background-color: #c0c0c0;
+  max-width: 400px;
+  padding: 10px;
+}
+
+.right-column {
+  max-width: 600px;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+/* ------------ Section ------------------*/
+.section-header__container {
+  background-color: #c0c0c0;
+}
+
+.section-header {
+  margin: 0;
+  padding: 0;
+}
+
+.education-year {
+  font-weight: 700;
+}
+
+.experience-years {
+  font-weight: 700;
+}
+
+.code-container {
+  background-color: #e4e4e4;
 }
